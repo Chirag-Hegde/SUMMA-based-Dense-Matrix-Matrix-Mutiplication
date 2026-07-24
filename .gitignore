@@ -1,0 +1,16 @@
+# Compiled objects and the linked binary (see Makefile: OBJ_DIR, TARGET).
+obj/
+*.o
+summa
+
+# Profiling and memory-check output written into the repo root by `make
+# valgrind_all`.
+valgrind_*.txt
+massif_*.out
+massif_*.txt
+callgrind_*.txt
+callgrind_*_output.txt
+valgrind_all_*_output.txt
+
+# macOS
+.DS_Store
